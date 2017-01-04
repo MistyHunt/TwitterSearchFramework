@@ -14,6 +14,7 @@
 		6002EBC81E18F3FB00FADE26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6002EBC61E18F3FB00FADE26 /* LaunchScreen.storyboard */; };
 		6002EBD31E18F3FB00FADE26 /* TwitterSearchFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6002EBD21E18F3FB00FADE26 /* TwitterSearchFrameworkTests.swift */; };
 		6002EBDE1E199C8500FADE26 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6002EBDD1E199C8500FADE26 /* Tweet.swift */; };
+		6002EBE01E1D15EA00FADE26 /* TwitterSearchAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6002EBDF1E1D15EA00FADE26 /* TwitterSearchAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		6002EBD21E18F3FB00FADE26 /* TwitterSearchFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterSearchFrameworkTests.swift; sourceTree = "<group>"; };
 		6002EBD41E18F3FB00FADE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6002EBDD1E199C8500FADE26 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		6002EBDF1E1D15EA00FADE26 /* TwitterSearchAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterSearchAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				6002EBC61E18F3FB00FADE26 /* LaunchScreen.storyboard */,
 				6002EBC91E18F3FB00FADE26 /* Info.plist */,
 				6002EBDD1E199C8500FADE26 /* Tweet.swift */,
+				6002EBDF1E1D15EA00FADE26 /* TwitterSearchAuth.swift */,
 			);
 			path = TwitterSearchFramework;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6002EBDE1E199C8500FADE26 /* Tweet.swift in Sources */,
+				6002EBE01E1D15EA00FADE26 /* TwitterSearchAuth.swift in Sources */,
 				6002EBC01E18F3FB00FADE26 /* ViewController.swift in Sources */,
 				6002EBBE1E18F3FB00FADE26 /* AppDelegate.swift in Sources */,
 			);

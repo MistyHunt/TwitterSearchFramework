@@ -10,6 +10,7 @@ import Foundation
 
 
 struct Tweet {
-	let favorited : Bool
-	let createdAt : Date
+	let favorited: Bool
+	let createdAt: Date
 }
+
