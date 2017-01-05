@@ -18,12 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		// Override point for customization after application launch.
 		
 		let tsa = TwitterSearchAuth()
-		if let bearerToken = tsa.getBearerToken() {
-			print(bearerToken)
+		tsa.postAuth(completionHanlder: {
+			tsa.search(searchString: "#Einav")
+		}) {
+			print("Something went wrong")
 		}
-		
-		tsa.postAuth()
 		return true
+		
 	}
 
 	func applicationWillResignActive(_ application: UIApplication) {
